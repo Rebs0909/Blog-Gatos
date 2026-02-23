@@ -21,17 +21,18 @@ header {
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     margin-bottom: 1.5rem;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    
+    flex-direction: row;  
     justify-content: center;
     gap: 1.5rem;
 }
@@ -46,7 +47,38 @@ nav a {
     transition: background-color 0.3s ease;
 }
 
-
+.cat-img {
+    width: 300px;
+    border-radius: 12px;
+} 
 nav a:hover {
     background-color: #555;
+}
+.shankyBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+.luiBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+.sabrinaBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+
+footer {
+    background-color: #636363;
+    color: rgb(221, 222, 226);
+    text-align: center;
+    padding: 5rem 1rem;
 }
